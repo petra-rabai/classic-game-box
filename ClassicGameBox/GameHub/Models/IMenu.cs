@@ -2,8 +2,9 @@
 {
 	public interface IMenu
 	{
-		string Color { get; set; }
+		ConsoleColor Color { get; set; }
 		string Description { get; set; }
 		string Name { get; set; }
+		char Key { get; set; }
 	}
 }

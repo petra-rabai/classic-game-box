@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using GameHub.UI;
+
+MainScreen mainScreen = new MainScreen();
+mainScreen.Initialize();
